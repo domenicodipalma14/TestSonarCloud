@@ -1,6 +1,7 @@
 package pezzo;
 
 public class Cavallo extends Pezzo{
+	private int pos_a[] =new int [2];
 	
 	public Cavallo(String c, int r, int col) {
 		super(c, r, col);
@@ -8,8 +9,9 @@ public class Cavallo extends Pezzo{
 	
 	public int[] sposta(int riga, int colonna) {
 		//movimenti cavallo
-		int c[] = new int [2];
-		return c;
+		pos_a[0] = riga;
+		pos_a[1] = colonna;
+		return pos_a;
 	}
 	
 	public boolean mangia(int r, int c, int p[]) {
