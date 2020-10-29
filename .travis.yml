@@ -5,7 +5,7 @@ jdk:
 addons:
  sonarcloud:
   organization: domenicodipalma14
-  token: c12b8eb96a72ad5d8ca66ef589404142d3c2c932
+  token: 1ef2252d94952f70465e2c0cac30f177b0a3de96
 
 script:
 - ant build
