@@ -3,8 +3,8 @@ jdk:
 - openjdk11
 addons:
 sonarcloud:
-organization: "DomanicoDiPalma11"
-token: "travis encrypt 509bb1a6e1915999eea24450c59b42458f9e38d0"
+organization: "DomenicoDiPalma11"
+token: "509bb1a6e1915999eea24450c59b42458f9e38d0"
 script:
 - ant build
 - sonar-scanner
