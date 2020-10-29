@@ -4,7 +4,7 @@ public class Gioca {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scacchiera s;
-		int position [] = new int[2];
+		int position [];
 		s = new Scacchiera();
 		s.stampa();
 		
